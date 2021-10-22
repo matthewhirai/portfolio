@@ -226,7 +226,7 @@
 	.about p {
 		font-size:14px;
 		margin-top:15px;
-		color:/*profileTextColor*/#1D91AA;
+		color:/*profileTextColor*/#334e68;
 		font-weight: 400;
 		line-height:20px;
 	}
@@ -246,7 +246,7 @@
 		overflow: hidden;
 	}
 	.personal-info li label {
-		color:/*profileTextColor*/#1D91AA;
+		color:/*profileTextColor*/#334e68;
 		float:left;
 		padding:4px 7px;
 		font-weight:600;
@@ -259,7 +259,7 @@
 		width:220px;
 		padding-top: 4px;
 		font-weight: 400;
-		color:/*profileTextColor*/#1D91AA;
+		color:/*profileTextColor*/#334e68;
 	}
 
 	/* Blurb */
@@ -320,7 +320,7 @@
 	  background: url(../images/tab-hover.png) no-repeat;
 	}
 	.tabs li.active a {
-	  color: #03dac6;
+	  color: #2fd1b6e7;
 	}
 
 	.next,.prev {
