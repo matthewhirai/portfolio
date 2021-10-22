@@ -32,7 +32,7 @@
 		margin-top: 30px;
 	}
 	#content {
-		background-color:#222222;
+		background-color:#000;
 		-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 		-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
@@ -188,7 +188,7 @@
 		/* Profile Section */
 	/*-------------------------------------------------------*/
     #profile {
-		background:/*mainColor*/#1f2933; 
+		background:/*mainColor*/#222222; 
 		background-image:url(../images/header-shadow.png);
 		background-position:center bottom;
 		background-repeat:repeat-x;
@@ -226,7 +226,7 @@
 	.about p {
 		font-size:14px;
 		margin-top:15px;
-		color:/*profileTextColor*/#334e68;
+		color:/*profileTextColor*/#ffffff;
 		font-weight: 400;
 		line-height:20px;
 	}
@@ -246,7 +246,7 @@
 		overflow: hidden;
 	}
 	.personal-info li label {
-		color:/*profileTextColor*/#334e68;
+		color:/*profileTextColor*/#ffffff;
 		float:left;
 		padding:4px 7px;
 		font-weight:600;
@@ -259,14 +259,14 @@
 		width:220px;
 		padding-top: 4px;
 		font-weight: 400;
-		color:/*profileTextColor*/#334e68;
+		color:/*profileTextColor*/#ffffff;
 	}
 
 	/* Blurb */
 	#blurb {
 		clear: both;
 		width: calc(100%-40px);
-		background: #222222;
+		background: #000;
 		font-size:14px;
 		color: #ffffff;
 		font-weight: 400;
@@ -281,7 +281,7 @@
 	/*-------------------------------------------------------*/
 	.menu {
 	  height: 100px;
-	  background-color: #1f2933;
+	  background-color: #222222;
 	  position: relative;
 	  width: 100%;
 	  margin: auto;
@@ -470,10 +470,11 @@
 	}
 	#portfolio-list li {
 		float:left;
-		margin-right:25px;
+		margin-right:12px;
+		margin-left: 12px;
 		text-align:center;
-		background-color:#fbfbfb;
-		border-bottom:1px solid #e5e5e5;
+		background-color:#424242;
+		border-bottom:1px solid #616161;
 		height:185px;
 		margin-bottom:30px;
 		width:180px;
@@ -494,7 +495,7 @@
 		font-size:14px;
 		margin-top:15px;
 		font-weight: 400;
-		color: #3A3A3A;
+		color: #ffffff;
 	}
 	#portfolio-list li .categorie {
 		font-size:11px;
@@ -980,7 +981,7 @@
 	/*-------------------------------------------------------*/
 	.menu {
 		height:100px;
-		background-color:#1f2933;
+		background-color:#222222;
 		position:relative;
 		width: 750px;
 		padding-left: 00px;
@@ -1122,7 +1123,7 @@
 	}
 	.menu {
 		height:100px;
-		background-color:#1f2933;
+		background-color:#222222;
 		position:relative;
 		width: 470px;
 		padding-left: 0px;
@@ -1280,7 +1281,7 @@
 	}
 	.menu {
 		height:100px;
-		background-color:#1f2933;
+		background-color:#222222;
 		position:relative;
 		width: 300px;
 		padding-left: 0px;
