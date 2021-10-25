@@ -94,7 +94,7 @@
 	/*-------------------------------------------------------*/
 		/* Typography */
 	/*-------------------------------------------------------*/
-    h1 {font-size: 37px;}
+    h1 {font-size: 34px;}
 	h2 {font-size: 30px;}
 	h3 {font-size: 20px;}
 	h4 {font-size: 15px;}
@@ -310,7 +310,6 @@
 	}
 	.tabs li > a > i {
 	  font-size: 45px;
-	  speak: none;
 	  font-family: icomoon;
 	  font-style: normal;
 	  display: block;
