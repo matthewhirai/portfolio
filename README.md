@@ -1,2 +1,2 @@
 # My Portoflio Website!!!
- Click [here](https://matthew-hirai.herokuapp.com/) to check it out!
+ Click [here](https://matthew-hirai.netlify.app/) to check it out!
