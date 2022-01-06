@@ -13,8 +13,8 @@ const Header = () => {
 				<div className="web-menu">
 					<Web />
 				</div>
-				<div className="mobile-menu">
-					<div onClick={() => setIsOpen(!isOpen)}>
+				<div className="mobile-menu" onClick={() => setIsOpen(!isOpen)}>
+					<div>
 						<i className="fi fi-rr-apps menu-icon" />
 					</div>
 					{isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
