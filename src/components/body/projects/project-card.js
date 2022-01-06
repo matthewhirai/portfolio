@@ -9,14 +9,14 @@ const ProjectCard = ({ project }) => {
 					{project.demo && (
 						<a className="project-link" href={project.demo}>
 							<div className="link-button">
-								<i class="fi fi-rr-globe" />Demo
+								<i className="fi fi-rr-globe" />Demo
 							</div>
 						</a>
 					)}
 					{project.github && (
 						<a className="project-link" href={project.github}>
 							<div className="link-button">
-								<i class="devicon-github-original" />Github
+								<i className="devicon-github-original" />Github
 							</div>
 						</a>
 					)}

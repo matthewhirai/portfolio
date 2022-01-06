@@ -11,7 +11,11 @@ const Projects = () => {
 			<label className="section-title">Projects</label>
 			<div>
 				{data.map((project) => {
-					return <ProjectCard project={project} />;
+					return (
+						<div key={project.id}>
+							<ProjectCard project={project} />
+						</div>
+					);
 				})}
 			</div>
 		</div>
