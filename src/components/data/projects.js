@@ -6,7 +6,8 @@ export const ProjectData = [
 	{
 		id: 1,
 		title: 'Ani-Bops',
-		about: 'A web application that allows you to find your favorite anime song just by searching the anime title.',
+		about:
+			'A web application that allows users to find their favorite anime song just by searching the anime title.',
 		tags: ['HTML/CSS', 'JavaScript', 'php', 'SQL'],
 		demo: 'https://ani-bops.herokuapp.com/',
 		github: 'https://github.com/matthewhirai/AniBops',
@@ -15,7 +16,8 @@ export const ProjectData = [
 	{
 		id: 2,
 		title: 'React-Movies',
-		about: 'A web application that allows you to search for your favorite movie and rate it.',
+		about:
+			'A web application that allows users to search for their favorite movie, get info about it, and even rate it.',
 		tags: ['React'],
 		demo: 'https://tmdb-react-movies.netlify.app/',
 		github: 'https://github.com/matthewhirai/react-movies',
