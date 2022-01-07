@@ -8,10 +8,9 @@ const About = () => {
 		<div className="about">
 			<div className="about-top">
 				<div className="about-info">
-					Hello there. I am
-					<br />
-					<span className="info-name">Matthew Hirai</span>.
-					<br /> I love experimenting with the web.
+					Hi there 👋. I'm <span className="info-name">Matthew Hirai</span>.
+					<br /> I'm currently a student at CSU Long Beach and I hope to be able to create products that makes
+					a positive impact.
 				</div>
 				<div className="about-photo">
 					<img src={picture} className="picture" />

@@ -1,5 +1,7 @@
 import AniBops from '../../assets/ani-bops.png';
 import ReactMovies from '../../assets/react-movies.png';
+import Blackjack from '../../assets/blackjack.png';
+import MegaWar from '../../assets/mega_war.png';
 export const ProjectData = [
 	{
 		id: 1,
@@ -18,5 +20,22 @@ export const ProjectData = [
 		demo: 'https://tmdb-react-movies.netlify.app/',
 		github: 'https://github.com/matthewhirai/react-movies',
 		image: ReactMovies
+	},
+	{
+		id: 3,
+		title: 'Blackjack',
+		about: 'Object oriented version of the card game Blackjack',
+		tags: ['Python'],
+		github: 'https://github.com/matthewhirai/Blackjack',
+		image: Blackjack
+	},
+	{
+		id: 4,
+		title: 'Mega War',
+		about:
+			'An altered version of the card game "War" made in C++ where the user can choose as many decks and players to play the game.',
+		tags: ['C++'],
+		github: 'https://github.com/matthewhirai/Mega-War',
+		image: MegaWar
 	}
 ];
