@@ -2,37 +2,37 @@ import React from "react";
 import "./project-card.css";
 const ProjectCard = ({ project }) => {
 	return (
-		<div className="project-card">
-			<div className="project-info">
-				<label className="project-title">{project.title}</label>
-				<div className="project-links">
+		<div className='project-card'>
+			<div className='project-info'>
+				<label className='project-title'>{project.title}</label>
+				<div className='project-links'>
 					{project.demo && (
-						<a className="project-link" href={project.demo}>
-							<div className="link-button">
-								<i className="fi fi-rr-globe" />Demo
+						<a className='project-link' href={project.demo}>
+							<div className='link-button'>
+								<i className='fi fi-rr-globe' />Demo
 							</div>
 						</a>
 					)}
 					{project.github && (
-						<a className="project-link" href={project.github}>
-							<div className="link-button">
-								<i className="devicon-github-original" />Github
+						<a className='project-link' href={project.github}>
+							<div className='link-button'>
+								<i className='devicon-github-original' />Github
 							</div>
 						</a>
 					)}
 				</div>
 				<p>{project.about}</p>
-				<div className="project-tags">
-					{project.tags.map((index, tag) => {
+				<div className='project-tags'>
+					{project.tags.map((tag, index) => {
 						return (
-							<label className="tag" key={index}>
+							<label className='tag' key={index}>
 								{tag}
 							</label>
 						);
 					})}
 				</div>
 			</div>
-			<img src={project.image} className="project-photo" />
+			<img src={project.image} className='project-photo' />
 		</div>
 	);
 };
