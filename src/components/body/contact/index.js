@@ -1,8 +1,8 @@
-import React from 'react';
-import './contact.css';
-import Separator from '../../common/separator/index';
-import SocialContact from '../../common/social-contact/index';
-import Resume from '../../../assets/Matthew_Hirai_Resume.pdf';
+import React from "react";
+import "./contact.css";
+import Separator from "../../common/separator/index";
+import SocialContact from "../../common/social-contact/index";
+import Resume from "../../../assets/Matthew_Hirai_Resume.pdf";
 const Contact = () => {
 	return (
 		<div className="contact">
@@ -15,7 +15,7 @@ const Contact = () => {
 				</div>
 				<div className="download">
 					<a download href={Resume}>
-						<i class="fi fi-rr-download" />
+						<i className="fi fi-rr-download" />
 						Download Résumé
 					</a>
 				</div>
