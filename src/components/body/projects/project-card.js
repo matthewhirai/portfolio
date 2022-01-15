@@ -1,5 +1,5 @@
-import React from 'react';
-import './project-card.css';
+import React from "react";
+import "./project-card.css";
 const ProjectCard = ({ project }) => {
 	return (
 		<div className="project-card">
@@ -23,8 +23,12 @@ const ProjectCard = ({ project }) => {
 				</div>
 				<p>{project.about}</p>
 				<div className="project-tags">
-					{project.tags.map((tag) => {
-						return <label className="tag">{tag}</label>;
+					{project.tags.map((index, tag) => {
+						return (
+							<label className="tag" key={index}>
+								{tag}
+							</label>
+						);
 					})}
 				</div>
 			</div>
