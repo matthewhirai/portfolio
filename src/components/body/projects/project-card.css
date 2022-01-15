@@ -9,6 +9,7 @@
 
 .project-photo {
 	width: 40%;
+	border-radius: 5px;
 }
 
 .project-info {
@@ -28,10 +29,14 @@
 
 .tag {
 	padding: 4px 8px;
-	background-color: aquamarine;
+	background-color: #95fff1;
 	border-radius: 4px;
 	margin-right: 6px;
 	margin-bottom: 4px;
+}
+
+.project-link :hover {
+	background-color: #7ff1f1;
 }
 
 .project-links a {
@@ -53,7 +58,7 @@
 	border-radius: 4px;
 	font-size: 16px;
 	margin-right: 6px;
-	background-color: aquamarine;
+	background-color: #95fff1;
 }
 
 .link-button i {

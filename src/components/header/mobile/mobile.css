@@ -37,3 +37,8 @@
 	color: black;
 	display: flex;
 }
+
+.mobile-option a:hover,
+i:hover {
+	color: rgb(71, 69, 69);
+}

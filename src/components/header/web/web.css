@@ -17,6 +17,11 @@
 	align-items: center;
 }
 
+.web-option a:hover,
+i:hover {
+	color: rgb(71, 69, 69);
+}
+
 .option-icon {
 	display: flex;
 	align-items: center;
@@ -25,4 +30,11 @@
 
 .option-icon:last-child {
 	margin-right: 0;
+}
+
+@media only screen and (max-width: 750px) {
+	.web-option a:hover,
+	i:hover {
+		color: black;
+	}
 }
